@@ -4,4 +4,8 @@ class Student < User
     @knowledge = []
   end
 
+  def learn(to_learn)
+    @knowledge << to_learn
+  end
+
 end

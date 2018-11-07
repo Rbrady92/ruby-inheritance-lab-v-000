@@ -1,8 +1,5 @@
-class User
-  attr_accessor :first, :last
+class User 
+  attr_accessor :first_name, :last_name
 
-  def initialize(name)
-
-  end
 
 end 

@@ -4,6 +4,7 @@ class Teacher < User
 
   def teach
     str = 1 + rand(KNOWLEDGE.LENGTH)
+    KNOWLEDGE[str]
   end
 
 end

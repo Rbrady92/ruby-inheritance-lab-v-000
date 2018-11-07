@@ -8,4 +8,8 @@ class Student < User
     @knowledge << to_learn
   end
 
+  def knowledge
+    @knowledge
+  end
+
 end
